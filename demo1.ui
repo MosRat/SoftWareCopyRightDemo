@@ -1,0 +1,785 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1243</width>
+    <height>1196</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>2400</width>
+    <height>1200</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <family>霞鹜文楷 GB 屏幕阅读版 R</family>
+    <pointsize>7</pointsize>
+    <weight>75</weight>
+    <bold>true</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="layoutDirection">
+   <enum>Qt::LeftToRight</enum>
+  </property>
+  <widget class="CardWidget" name="CardWidget">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>220</y>
+     <width>611</width>
+     <height>521</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>LXGW WenKai</family>
+     <pointsize>7</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <widget class="BodyLabel" name="BodyLabel">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>460</y>
+      <width>261</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>LXGW WenKai</family>
+      <pointsize>14</pointsize>
+      <weight>50</weight>
+      <italic>true</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="text">
+     <string>正在反馈输入信息</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="ProgressBar" name="ProgressBar">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>160</y>
+      <width>201</width>
+      <height>4</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <number>1</number>
+    </property>
+    <property name="value">
+     <number>80</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+    <property name="useAni">
+     <bool>true</bool>
+    </property>
+    <property name="val">
+     <double>80.000000000000000</double>
+    </property>
+   </widget>
+   <widget class="StrongBodyLabel" name="StrongBodyLabel">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>230</y>
+      <width>113</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>黑体</family>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>综合评价：76</string>
+    </property>
+   </widget>
+   <widget class="StateToolTip" name="StateToolTip">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>400</y>
+      <width>256</width>
+      <height>51</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="ProgressBar" name="ProgressBar_3">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>210</y>
+      <width>201</width>
+      <height>4</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <number>1</number>
+    </property>
+    <property name="value">
+     <number>34</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+    <property name="useAni">
+     <bool>true</bool>
+    </property>
+    <property name="val">
+     <double>34.000000000000000</double>
+    </property>
+   </widget>
+   <widget class="ProgressBar" name="ProgressBar_4">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>260</y>
+      <width>201</width>
+      <height>4</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <number>1</number>
+    </property>
+    <property name="value">
+     <number>85</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+    <property name="useAni">
+     <bool>true</bool>
+    </property>
+    <property name="val">
+     <double>85.000000000000000</double>
+    </property>
+   </widget>
+   <widget class="ProgressBar" name="ProgressBar_5">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>310</y>
+      <width>201</width>
+      <height>4</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <number>1</number>
+    </property>
+    <property name="value">
+     <number>65</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+    <property name="useAni">
+     <bool>true</bool>
+    </property>
+    <property name="val">
+     <double>65.000000000000000</double>
+    </property>
+   </widget>
+   <widget class="BodyLabel" name="BodyLabel_5">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>150</y>
+      <width>71</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>姿态准确度</string>
+    </property>
+   </widget>
+   <widget class="BodyLabel" name="BodyLabel_6">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>200</y>
+      <width>71</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>速度匹配度</string>
+    </property>
+   </widget>
+   <widget class="ProgressRing" name="ProgressRing">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>140</y>
+      <width>200</width>
+      <height>200</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>200</width>
+      <height>200</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>200</width>
+      <height>200</height>
+     </size>
+    </property>
+    <property name="maximum">
+     <number>10</number>
+    </property>
+    <property name="value">
+     <number>6</number>
+    </property>
+    <property name="strokeWidth">
+     <number>16</number>
+    </property>
+   </widget>
+   <widget class="BodyLabel" name="BodyLabel_7">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>250</y>
+      <width>71</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>掌握置信度</string>
+    </property>
+   </widget>
+   <widget class="BodyLabel" name="BodyLabel_8">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>300</y>
+      <width>71</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>语义理解度</string>
+    </property>
+   </widget>
+   <widget class="CaptionLabel" name="CaptionLabel_2">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>30</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>黑体</family>
+      <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>评价结果</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+  </widget>
+  <widget class="CaptionLabel" name="CaptionLabel">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>130</y>
+     <width>431</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>霞鹜文楷 GB 屏幕阅读版 R</family>
+     <pointsize>36</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>三维手语教学平台</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="pixelFontSize" stdset="0">
+    <number>-1</number>
+   </property>
+  </widget>
+  <widget class="CardWidget" name="CardWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>1190</x>
+     <y>220</y>
+     <width>311</width>
+     <height>521</height>
+    </rect>
+   </property>
+   <widget class="SwitchButton" name="SwitchButton_3">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>230</y>
+      <width>112</width>
+      <height>37</height>
+     </rect>
+    </property>
+    <property name="checked">
+     <bool>true</bool>
+    </property>
+    <property name="text">
+     <string>人体重建</string>
+    </property>
+    <property name="onText">
+     <string>人体重建</string>
+    </property>
+    <property name="offText">
+     <string>人体重建</string>
+    </property>
+   </widget>
+   <widget class="SwitchButton" name="SwitchButton_5">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>330</y>
+      <width>112</width>
+      <height>37</height>
+     </rect>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+    <property name="text">
+     <string>在线评价</string>
+    </property>
+    <property name="onText">
+     <string>在线评价</string>
+    </property>
+    <property name="offText">
+     <string>在线评价</string>
+    </property>
+   </widget>
+   <widget class="SwitchButton" name="SwitchButton_4">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>280</y>
+      <width>112</width>
+      <height>37</height>
+     </rect>
+    </property>
+    <property name="checked">
+     <bool>true</bool>
+    </property>
+    <property name="text">
+     <string>评价反馈</string>
+    </property>
+    <property name="onText">
+     <string>评价反馈</string>
+    </property>
+    <property name="offText">
+     <string>评价反馈</string>
+    </property>
+   </widget>
+   <widget class="SwitchButton" name="SwitchButton">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>180</y>
+      <width>112</width>
+      <height>37</height>
+     </rect>
+    </property>
+    <property name="checked">
+     <bool>true</bool>
+    </property>
+    <property name="text">
+     <string>动作捕捉</string>
+    </property>
+    <property name="onText">
+     <string>动作捕捉</string>
+    </property>
+    <property name="offText">
+     <string>动作捕捉</string>
+    </property>
+   </widget>
+   <widget class="DropDownPushButton" name="DropDownPushButton">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>60</y>
+      <width>161</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>FrankMocap</string>
+    </property>
+   </widget>
+   <widget class="DropDownPushButton" name="DropDownPushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>110</y>
+      <width>161</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>DTW动态时间扭曲</string>
+    </property>
+   </widget>
+   <widget class="BodyLabel" name="BodyLabel_3">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>70</y>
+      <width>65</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>黑体</family>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>姿态引擎</string>
+    </property>
+   </widget>
+   <widget class="BodyLabel" name="BodyLabel_4">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>120</y>
+      <width>65</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>黑体</family>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>评价算法</string>
+    </property>
+   </widget>
+   <widget class="CheckBox" name="CheckBox">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>400</y>
+      <width>93</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>隐私保护</string>
+    </property>
+    <property name="checked">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="CheckBox" name="CheckBox_2">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>400</y>
+      <width>93</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>数据加密</string>
+    </property>
+   </widget>
+   <widget class="PushButton" name="PushButton">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>440</y>
+      <width>131</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>JetBrainsMono Nerd Font</family>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>GO!</string>
+    </property>
+   </widget>
+   <widget class="TableWidget" name="TableWidget">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>180</y>
+      <width>101</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <row>
+     <property name="text">
+      <string>当前配置</string>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>FrankMoCap</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>DTW</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>动作捕捉</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>人体重建</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>评价反馈</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>隐私保护</string>
+     </property>
+    </row>
+   </widget>
+   <widget class="CaptionLabel" name="CaptionLabel_3">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>10</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>黑体</family>
+      <pointsize>16</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>控制台</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+  </widget>
+  <widget class="ImageLabel" name="ImageLabel">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>750</y>
+     <width>1100</width>
+     <height>250</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>1100</width>
+     <height>250</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>900</width>
+     <height>250</height>
+    </size>
+   </property>
+   <property name="topLeftRadius" stdset="0">
+    <number>15</number>
+   </property>
+   <property name="topRightRadius" stdset="0">
+    <number>15</number>
+   </property>
+   <property name="bottomLeftRadius" stdset="0">
+    <number>15</number>
+   </property>
+   <property name="bottomRightRadius" stdset="0">
+    <number>15</number>
+   </property>
+   <property name="buddy">
+    <cstring></cstring>
+   </property>
+  </widget>
+  <widget class="ImageLabel" name="ImageLabel_2">
+   <property name="geometry">
+    <rect>
+     <x>770</x>
+     <y>220</y>
+     <width>400</width>
+     <height>500</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>350</width>
+     <height>500</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>400</width>
+     <height>250</height>
+    </size>
+   </property>
+   <property name="topLeftRadius" stdset="0">
+    <number>15</number>
+   </property>
+   <property name="topRightRadius" stdset="0">
+    <number>15</number>
+   </property>
+   <property name="bottomLeftRadius" stdset="0">
+    <number>15</number>
+   </property>
+   <property name="bottomRightRadius" stdset="0">
+    <number>15</number>
+   </property>
+   <property name="buddy">
+    <cstring></cstring>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>CheckBox</class>
+   <extends>QCheckBox</extends>
+   <header>qfluentwidgets</header>
+  </customwidget>
+  <customwidget>
+   <class>PushButton</class>
+   <extends>QPushButton</extends>
+   <header>qfluentwidgets</header>
+  </customwidget>
+  <customwidget>
+   <class>DropDownPushButton</class>
+   <extends>PushButton</extends>
+   <header>qfluentwidgets</header>
+  </customwidget>
+  <customwidget>
+   <class>SwitchButton</class>
+   <extends>QWidget</extends>
+   <header>qfluentwidgets</header>
+  </customwidget>
+  <customwidget>
+   <class>CardWidget</class>
+   <extends>QFrame</extends>
+   <header>qfluentwidgets</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>CaptionLabel</class>
+   <extends>QLabel</extends>
+   <header>qfluentwidgets</header>
+  </customwidget>
+  <customwidget>
+   <class>BodyLabel</class>
+   <extends>QLabel</extends>
+   <header>qfluentwidgets</header>
+  </customwidget>
+  <customwidget>
+   <class>StrongBodyLabel</class>
+   <extends>QLabel</extends>
+   <header>qfluentwidgets</header>
+  </customwidget>
+  <customwidget>
+   <class>ImageLabel</class>
+   <extends>QLabel</extends>
+   <header>qfluentwidgets</header>
+  </customwidget>
+  <customwidget>
+   <class>ProgressBar</class>
+   <extends>QProgressBar</extends>
+   <header>qfluentwidgets</header>
+  </customwidget>
+  <customwidget>
+   <class>ProgressRing</class>
+   <extends>ProgressBar</extends>
+   <header>qfluentwidgets</header>
+  </customwidget>
+  <customwidget>
+   <class>StateToolTip</class>
+   <extends>QWidget</extends>
+   <header>qfluentwidgets</header>
+  </customwidget>
+  <customwidget>
+   <class>TableWidget</class>
+   <extends>QTableWidget</extends>
+   <header>qfluentwidgets</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

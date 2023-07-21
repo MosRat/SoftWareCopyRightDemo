@@ -1,4 +1,7 @@
 # SoftWareCopyRightDemo
+
+![](https://github.com/MosRat/SoftWareCopyRightDemo/blob/master/src/demo/demo.png)
+
 ## 运行方式
 ```shell
 git clone https://github.com/MosRat/SoftWareCopyRightDemo
