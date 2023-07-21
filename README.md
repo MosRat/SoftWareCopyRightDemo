@@ -10,6 +10,8 @@ git clone https://github.com/MosRat/SoftWareCopyRightDemo
 
 conda create -n qtfluentui python=3.8.10
 
+conda activate qtfluentui
+
 pip install -r requirements.txt
 
 python main.py
