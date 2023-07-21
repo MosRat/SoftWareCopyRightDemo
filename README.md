@@ -1,6 +1,6 @@
-<div align="center" >
+<h1 align="center" >
   <font size="12">SoftWareCopyRightDemo</font> 
-</div>
+</h1>
 
 ![](https://github.com/MosRat/SoftWareCopyRightDemo/blob/master/src/demo/demo.png)
 
