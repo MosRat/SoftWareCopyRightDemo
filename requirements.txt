@@ -1,0 +1,2 @@
+pyqt-fluent-widgets
+pyinstaller
